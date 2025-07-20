@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backened && npm install --prefix Frontened && npm run build --prefix Frontened",
+    "start": "npm run start --prefix Backened"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitsaraswat227/ChatApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitsaraswat227/ChatApp/issues"
+  },
+  "homepage": "https://github.com/amitsaraswat227/ChatApp#readme",
+  "description": ""
+}
