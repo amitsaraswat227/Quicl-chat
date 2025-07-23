@@ -9,7 +9,7 @@ export default defineConfig({
     port:3001,
     proxy:{
       "/api": {
-        target:"http://localhost:4002",
+        target:"https://quick-chat-1-vlkj.onrender.com",
         changeOrigin:true,
       }
     }
