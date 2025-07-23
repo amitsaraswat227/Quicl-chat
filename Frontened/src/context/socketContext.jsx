@@ -18,7 +18,7 @@ export const SocketProvider=({children})=>{
 
     useEffect(()=>{
         if(authUser){
-            const socket=io("https://chatapp-gypf.onrender.com",{
+            const socket=io("https://quick-chat-1-vlkj.onrender.com",{
                 query:{
                     userId:authUser.user._id,
                 }
